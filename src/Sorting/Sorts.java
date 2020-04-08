@@ -12,4 +12,4 @@ public class Sorts {
 // stable sort - order of duplicates unchanged
 // unstable sort - changed
 
-// complexity: worst, average, best 
+// complexity: worst, average, best
