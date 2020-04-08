@@ -1,6 +1,6 @@
 package Sorting;
 
-public class InsertionSort {
+public class InsertionSort1 {
 
     /* A utility function to print array of size n*/
     static void printArray(int arr[])
@@ -17,7 +17,7 @@ public class InsertionSort {
     {
         int arr[] = { 12, 11, 13, 5, 6 };
 
-        InsertionSort ob = new InsertionSort();
+        InsertionSort1 ob = new InsertionSort1();
         ob.sort(arr);
 
         printArray(arr);
