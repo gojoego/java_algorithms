@@ -14,8 +14,9 @@ public class InsertionSort2 {
                 if (array[j] <= v) {
                     break;
                 }
+                array[j+1] = array[j];
             }
-            
+            array[j+1] = v;
         }
 
     }
