@@ -26,7 +26,7 @@ public class InsertionSort1 {
         printArray(arr);
     }
 
-    /*Function to sort array using insertion sort*/
+    /*Function to socd /Users/joe/Documents/CodingNomads/spring/gs-rest-service/completert array using insertion sort*/
     void sort(int arr[])
     {
         int n = arr.length;
