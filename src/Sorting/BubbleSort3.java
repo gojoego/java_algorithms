@@ -62,7 +62,7 @@ public class BubbleSort3 {
         // -22, -4, 1, 12, 23, 55`, 168`, 400 no switch
         // -22, -4, 1, 12, 23, 55, 168`, 400` no switch
 
-        
+
         System.out.println("unsorted: " + Arrays.toString(arr));
 
         bubbleSort(arr);
