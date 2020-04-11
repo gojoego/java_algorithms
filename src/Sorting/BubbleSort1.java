@@ -32,3 +32,17 @@ public class BubbleSort1 {
         }
     }
 }
+/*
+
+int[] intArray = new int[]{3, 60, 35, 2, 45, 320, 5};
+
+1st inner loop, j = 1, 1 < 6, 1 + 1
+3`, 60`, 35, 2, 45, 320, 5 switch
+3, 35`, 60`, 2, 45, 320, 5 switch
+3, 35, 60`, 2`, 45, 320, 5
+
+
+
+
+
+*/

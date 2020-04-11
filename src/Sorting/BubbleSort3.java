@@ -9,6 +9,8 @@ public class BubbleSort3 {
         int[] arr = new int[]{23, 12, 1, -4, 400, 55, -22, 168};
 
         // 1st inner loop, j = 1; 1 < 7; 1 + 1
+        // 23`, 12`, 1, -4, 400, 55, -22, 168 switch
+        // 12, 12... intermediate step
         // 12`, 23`, 1, -4, 400, 55, -22, 168 switch
         // 12, 1`, 23`, -4, 400, 55, -22, 168 switch
         // 12, 1, -4', 23`, 400, 55, -22, 168 switch
@@ -78,9 +80,9 @@ public class BubbleSort3 {
             for (int j = 1; j < array.length - 1; j++) {
 
                 if (array[j - 1] > array[j]) {
-                    int t = array[j - 1];
-                    array[j - 1] = array[j];
-                    array[j] = t;
+                    int t = array[j - 1];           // 23, 12, 1, -4, 400, 55, -22, 168     t = 23
+                    array[j - 1] = array[j];        // 12, 12, 1, -4, 400, 55, -22, 168     array[0] = 12 current value of array[1]
+                    array[j] = t;                   // 12, 23, 1, -4, 400, 55, -22, 168     array[1] = 23
                 }
             }
         }
