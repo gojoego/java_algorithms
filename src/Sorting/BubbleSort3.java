@@ -10,8 +10,9 @@ public class BubbleSort3 {
 
         // 1st inner loop, j = 1; 1 < 7; 1 + 1
         // 23`, 12`, 1, -4, 400, 55, -22, 168 switch
-        // 12, 12... intermediate step
+        // 12, 12 ... intermediate step
         // 12`, 23`, 1, -4, 400, 55, -22, 168 switch
+        // ... 1, 1 ... intermediate step
         // 12, 1`, 23`, -4, 400, 55, -22, 168 switch
         // 12, 1, -4', 23`, 400, 55, -22, 168 switch
         // 12, 1, -4, 23`, 400`, 55, -22, 168 switch
