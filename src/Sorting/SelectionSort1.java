@@ -2,7 +2,7 @@ package Sorting;
 
 import java.util.Arrays;
 
-public class SelectionSort {
+public class SelectionSort1 {
 
     public static void main(String[] args) {
         int[] array = new int[]{23,12,3,168,-35,2,45,32,-4};
