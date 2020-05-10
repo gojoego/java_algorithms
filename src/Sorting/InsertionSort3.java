@@ -1,20 +1,22 @@
 package Sorting;
 
-import java.lang.reflect.Array;
-import java.util.ArrayList;
 import java.util.Arrays;
 
 public class InsertionSort3 {
 
     public static void main(String[] args) {
 
-        int[] input = {87, 33, 85, 35, 81, 37};
+        int[] array1 = {87, 33, 85, 35, 81, 37};
 
-        System.out.println("unsorted: " + Arrays.toString(input));
+        System.out.println("unsorted: " + Arrays.toString(array1));
 
-        Imperative.insertionSortImperative(input);
+        Imperative.insertionSortImperative(array1);
 
-        System.out.println("sorted: " + Arrays.toString(input));
+        System.out.println("sorted: " + Arrays.toString(array1));
+
+        int[] array2 = {817, 3, 89, 36, 82, 40};
+
+
     }
 }
 
@@ -32,6 +34,25 @@ class Imperative {
         }
     }
 }
+
+class Recursive {
+
+    public static void insertionSortRecursive(int[] input, int i) {
+
+        if (i <= 1) {
+            return;
+        }
+        insertionSortRecursive(input, i - 1);
+        int key = input[i - 1];
+        int j = i - 2;
+        while (j >= 0 && input[j] > key) {
+            input[j + 1] = input[j];
+            j = j - 1;
+        }
+        input[j + 1] = key;
+    }
+}
+
 
 /*
 
