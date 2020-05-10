@@ -14,8 +14,15 @@ public class InsertionSort3 {
 
         System.out.println("sorted: " + Arrays.toString(array1));
 
+        System.out.println();
+
         int[] array2 = {817, 3, 89, 36, 82, 40};
 
+        System.out.println("unsorted: " + Arrays.toString(array2));
+
+        Recursive.insertionSortRecursive(array2, 6);
+
+        System.out.println("sorted: " + Arrays.toString(array2));
 
     }
 }
